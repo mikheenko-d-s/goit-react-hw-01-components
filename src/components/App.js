@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Section from './Section/Section';
-import Header from './Header/Header';
 
 import Profile from './Profile/Profile';
 import Statistics from './Statistics/Statistics';
@@ -16,8 +15,6 @@ import transactions from '../data/transactions.json';
 function App() {
   return (
     <>
-      <Header title="goit-react-hw-01-components" />
-
       <Section>
         <Profile
           name={user.name}
