@@ -1,0 +1,10 @@
+.section {
+  margin: 0;
+  padding: 40px 0;
+
+  background: #f8f8f8;
+}
+
+.section:nth-child(2n) {
+  background-color: white;
+}
